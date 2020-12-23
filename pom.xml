@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
 </dependencies>
+  <distributionManagement>
   <repository>
   <id>cgiazureartifact1</id>
   <url>https://pkgs.dev.azure.com/middlewaredevops5/cgidevopsproject1/_packaging/cgiazureartifact1/maven/v1</url>
@@ -25,6 +26,7 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
+    </distributionManagement>
    <build>
     <finalName>babynames</finalName>
   </build>
